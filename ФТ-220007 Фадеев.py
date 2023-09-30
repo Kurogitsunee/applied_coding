@@ -11,3 +11,7 @@ if a > b:
     print("Abs diff:", a-b)
 else:
     print("Abs diff:", b-a)
+if b != 0:
+    print('Div:', round(a/b, 2))
+else:
+    print('Error: dividing by zero')
